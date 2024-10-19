@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="registration-card">
+            <h2 class="hind-siliguri-bold header" >Registration Form</h2>
+            <form>
+                <div class="form-grid">
+                    <!-- Full Name and Username -->
+                    <div class="card-item">
+                        <div class="card-item-label">
+                            <label for="fullname"><strong>Full Name</strong></label>
+                        </div>
+                        <div class="card-item-input">
+                            <input type="text" id="fullname" name="fullname" placeholder="Enter Your Full Name"
+                                required>
+                        </div>
+                    </div>
+
+                    <div class="card-item">
+                        <div class="card-item-label">
+                            <label for="username"><strong>Username</strong></label>
+                        </div>
+                        <div class="card-item-input">
+                            <input type="text" id="username" name="username" placeholder="Enter Your Username" required>
+                        </div>
+                    </div>
+
+                    <!-- Email and Phone Number -->
+                    <div class="card-item">
+                        <div class="card-item-label">
+                            <label for="email"><strong>Email</strong></label>
+                        </div>
+                        <div class="card-item-input">
+                            <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+                        </div>
+                    </div>
+
+                    <div class="card-item">
+                        <div class="card-item-label">
+                            <label for="phone"><strong>Phone</strong></label>
+                        </div>
+                        <div class="card-item-input">
+                            <input type="text" id="phone" name="phone" placeholder="Enter Your phone" required>
+                        </div>
+                    </div>
+
+                    <!-- Password and Confirm Password -->
+                    <div class="card-item">
+                        <div class="card-item-label">
+                            <label for="password"><strong>Password</strong></label>
+                        </div>
+                        <div class="card-item-input">
+                            <input type="password" id="password" name="password" placeholder="Enter Your Password"
+                                required>
+                        </div>
+                    </div>
+
+                    <div class="card-item">
+                        <div class="card-item-label">
+                            <label for="confirm_password"><strong>Confirm
+                                    Password</strong></label>
+                        </div>
+                        <div class="card-item-input">
+                            <input type="password" id="confirm_password" name="confirm_password"
+                                placeholder="Enter Your Confirm Password" required>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gender section -->
+                <label><strong>Gender</strong></label>
+                <div class="gender-group">
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female" required>
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other" required>
+                    <label for="other">Other</label>
+                </div>
+
+                <!-- Submit button -->
+                <div class="button-wrapper">
+                    <button type="submit" class="cancel-button">Cancel</button>
+                    <button type="submit" class="submit-button">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

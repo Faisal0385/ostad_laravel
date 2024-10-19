@@ -1,0 +1,136 @@
+/* General page settings */
+body,
+html {
+    margin: 0;
+    height: 100%;
+    font-family: "Hind Siliguri", sans-serif;
+    background-color: #f4f4f4;
+    background: linear-gradient(90deg, #4CAF50, #00BCD4);
+}
+
+/* Fonts */
+.hind-siliguri-semibold {
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.hind-siliguri-bold {
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.header {
+    text-align: center;
+}
+
+/* Centering the card */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Card styling */
+.registration-card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    max-width: 800px;
+    width: 100%;
+    margin: 20px;
+}
+
+/* Card item */
+.card-item {
+    display: flex;
+    align-items: center;
+}
+
+.card-item-label {
+    flex: 1;
+}
+
+.card-item-input {
+    flex: 4;
+    padding: 5;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Form grid layout */
+.form-grid {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* Styling the form labels and inputs */
+label {
+    font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Gender options in a row */
+.gender-group {
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.gender-group input {
+    margin-right: 5px;
+}
+
+/* Submit & Cancel Button with gradient background */
+.button-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.submit-button {
+    background: linear-gradient(90deg, #585BB2, #004ad4);
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cancel-button {
+    background: linear-gradient(90deg, #D2675F, #d43c00);
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.submit-button:hover {
+    opacity: 0.9;
+}
+
+.cancel-button:hover {
+    opacity: 0.9;
+}
